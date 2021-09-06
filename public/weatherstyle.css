@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+}
+#beforeWeather{
+    position: absolute;
+    left: 45%;
+    top: 17%;
+}
+#beforeWeather::before{
+    content: "_________________________________";
+}
+#beforeWeather::after{
+    content: "by public API";
+}
+#weatherDiv{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    left: 35.5%;
+    top: 30%;
+    box-shadow: 0 0 20px 10px gray;
+}
+#search{
+    background-color: white;
+    height: 20%;
+    width: 100%;
+}
+#weatherLogo{
+    background-color: white;
+    height: 55%;
+    width: 100%;
+}
+#WeatherLogodiv{
+    height: 100%;
+    width: 100%;
+}
+#details{
+    height: 25%;
+    width: 100%;
+}
+#weatherDetails{
+    float: left;
+    background-color: rgb(2, 2, 2);
+    height: 100%;
+    width: 75%;
+}
+#date{
+    color: white;
+    float: right;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(83, 67, 226);
+}
+#weatherLogoImg{
+    width: 300px;
+    height: 210px;
+}
+#inputCity{
+    height: 20px;
+}
+#btnSubmit{
+    width: 60px;
+    height: 20px;
+}
+#LeftDetails{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#RightDetails{
+    color: white;
+    margin-top: 25px;
+    margin-right: 180px;
+    float: right;
+}
+.date{
+    margin-top: 10px;
+}
+span {
+    content: "\2103";
+  }
